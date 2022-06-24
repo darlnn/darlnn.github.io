@@ -1,0 +1,54 @@
+body{
+    background-color: #FFE4C4;
+}
+
+#header{
+    background-color: #ffcccc;
+    height: 70px;
+    margin: 10px 10px 0px 10px;
+    background-size: 100%;
+    border-radius: 5px;
+}
+
+.main{
+    width: 1000px;
+    height: 475px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #FAFAD2;
+    margin-top: 10px;
+    text-align: center;
+}
+
+form {
+    display: table;
+    padding: 10px;
+    margin: auto;
+    margin-left: 180px;
+    float: left;
+    margin-top: 70px;
+    line-height: 1.5;
+}
+
+form textarea {
+    width: 400px;
+    height: 200px;
+}
+
+div.tableRow {
+    display: table-row;
+}
+
+div.tableRow p {
+    display: table-cell;
+    vertical-align: top;
+    padding: 3px;
+    font-size: 14px;
+}
+div.tableRow p:first-child {
+    text-align: right;
+}
+p.heading {
+    font-weight: bold;
+    font-family: 幼圆;
+}

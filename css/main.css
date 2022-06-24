@@ -1,0 +1,117 @@
+body{
+    background-color: #FFE4C4;
+}
+
+#header{
+    background-color: #ffcccc;
+    height: 70px;
+    margin: 10px 10px 0px 10px;
+    background-size: 100%;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #FFE4E1;
+    margin: 10px 10px 0px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+nav ul {
+    margin: 0px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+}
+nav ul li {
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited {
+    color: #FFA07A;
+    border-bottom: none;
+    font-weight: bold;
+}
+nav ul li.selected {
+    background-color: #FFC0CB;
+}
+
+.body{
+    width: 1010px;
+    height: 750px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sider{
+    display: inline-block;
+    width: 200px;
+    height: 750px;
+    background-color: #FAFAD2;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 幼圆;
+    line-height: 1.5;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    margin-right: 10px;
+}
+
+.hobbytitle{
+    height: 60px;
+    background: url("../img/花儿.png");
+    background-repeat: repeat-x;
+    background-size: 60px;
+}
+
+.main{
+    width: 770px;
+    height: 750px;
+    display: inline-block;
+    background-color: #FAFAD2;
+    border-radius: 10px;
+    font-family: 幼圆;
+
+}
+
+a:link{
+    color: black;
+}
+
+.text{
+    color: #FFC0CB;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 幼圆;
+    float: left;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+#footer{
+    background-color: #ffcccc;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.line{
+    height: 40px;
+    width: 100%;
+    background: url("/img/花 雏菊 菊花 白花.png");
+    background-repeat: repeat-x;
+    background-size: 30px;
+}
+
+.introduce{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.cd{
+    color: black;
+}
+
+.artist{
+    color: #8B4726;
+    font-family: 等线;
+}

@@ -1,0 +1,139 @@
+body{
+    background-color: #FFE4C4;
+}
+
+#header{
+    background-color: #ffcccc;
+    height: 70px;
+    margin: 10px 10px 0px 10px;
+    background-size: 100%;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #FFE4E1;
+    margin: 10px 10px 0px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+nav ul {
+    margin: 0px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+}
+nav ul li {
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited {
+    color: #FFA07A;
+    border-bottom: none;
+    font-weight: bold;
+}
+nav ul li.selected {
+    background-color: #FFC0CB;
+}
+
+.cloud{
+    position: absolute;
+    background: url("../img/彩虹云朵.png") no-repeat;
+    width: 150px;
+    height: 300px;
+    top:30px;
+    left: 900px;
+    background-size: 100%;
+    z-index: 9;
+}
+
+.content{
+    margin-bottom: 30px;
+}
+
+.head{
+    background: url("../img/头像 女孩.png") no-repeat;
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    margin-top: 30px;
+    background-size: 100%;
+    z-index: 9;
+}
+
+.main{
+    position: relative;
+    background-color: #FAFAD2;
+    width: 1000px;
+    height: 790px;
+    margin: auto;
+    top:-60px;
+    border-radius: 10px;
+    z-index: -1;
+    text-align: center;
+    font-family: 幼圆;
+}
+
+.name{
+    position: relative;
+    padding-top: 60px;
+    color: #8B4726;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: -5px;
+    color: black;
+}
+
+.box1{
+    background: white;
+    width: 400px;
+    height: 410px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    float: left;
+    margin-top: 30px;
+
+}
+
+.img{
+    background: url("../img/blog1.jpg") no-repeat;
+    width: 300px;
+    height: 180px;
+    border-radius: 5px;
+    background-size: 100%;
+    background-position: center;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.box2{
+    width: 500px;
+    height: 410px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.box3{
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.box4{
+    width: 500px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.box5{
+    width: 910px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

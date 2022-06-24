@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/more.css">
+</head>
+<body>
+<!--页眉-->
+<header id="header">
+    <img src="img/富士山.png" style="height: 55px;margin-left: 40px;margin-top: 12px">
+</header>
+<div class="main">
+<a href="index.html" style="font-size: 14px;color: #FFA07A;padding-left: 15px;padding-top: 25px;float: left;text-decoration: underline">返回主页</a>
+    <form action="http://www.starbuzzcoffee.com/processorder.php" method="post">
+        <div class="tableRow label">
+            <p> 你的出生年月: </p>
+            <p> <input type="date" name="date"> </p>
+        </div>
+        <div class="tableRow">
+            <p> 你的性别: </p>
+            <p>
+                <input type="radio" name="beantype" value="whole"> 男 &nbsp;
+                <input type="radio" name="beantype" value="ground" checked>
+                女
+            </p>
+        </div>
+        <div class="tableRow">
+            <p class="heading"> 让我更加了解你叭！ </p>
+            <p></p>
+        </div>
+        <div class="tableRow">
+            <p> 姓 名: </p>
+            <p> <input type="text" name="name" value="" placeholder="你的姓名" required > </p>
+        </div>
+        <div class="tableRow">
+            <p> 地 址: </p>
+            <p> <input type="text" name="address" value="" placeholder="你的地址" required> </p>
+        </div>
+        <div class="tableRow">
+            <p> 城 市: </p>
+            <p> <input type="text" name="city" value="" placeholder="你的城市" required> </p>
+        </div>
+        <div class="tableRow">
+            <p> 国 家: </p>
+            <p> <input type="text" name="state" value="" placeholder="你的国籍" required> </p>
+        </div>
+        <div class="tableRow">
+            <p> 电 话: </p>
+            <p> <input type="text" name="zip" value="" placeholder="你的电话号码" required> </p>
+        </div>
+        <div class="tableRow">
+            <p> Q Q: </p>
+            <p> <input type="tel" name="phone" value="" placeholder="你的QQ号码" required> </p>
+        </div>
+        <br>
+        <div class="tableRow">
+            <p></p>
+            <p> <input type="submit" value="填好啦" style="background-color: #FFC0CB;border-radius: 5px;border: #FFC0CB solid 1px;height: 30px;width: 100px"> </p>
+        </div>
+    </form>
+    <img src="img/星星.png" style=";position:absolute;width: 60px;height: 100px;left: 1000px;top:100px">
+    <img src="img/小草.png" style=";position:absolute;width: 100px;height: 100px;left: 200px;top:470px">
+    <img src="img/云.png" style=";position:absolute;width: 120px;height: 80px;left: 850px;top:250px">
+</div>
+</body>
+</html>

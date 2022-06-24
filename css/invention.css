@@ -1,0 +1,193 @@
+body{
+    background-color: #FFE4C4;
+}
+
+#header{
+    background-color: #ffcccc;
+    height: 70px;
+    margin: 10px 10px 0px 10px;
+    background-size: 100%;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #FFE4E1;
+    margin: 10px 10px 0px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+nav ul {
+    margin: 0px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+}
+nav ul li {
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited {
+    color: #FFA07A;
+    border-bottom: none;
+    font-weight: bold;
+}
+nav ul li.selected {
+    background-color: #FFC0CB;
+}
+
+.main{
+    width: 1000px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #FAFAD2;
+    margin-bottom: 10px;
+}
+
+.line{
+    background: url("/img/花 雏菊 菊花 白花.png");
+    height: 17px;
+    background-repeat: repeat-x;
+    background-size: 17px;
+    margin: auto;
+    width: 85%;
+    margin-top: 20px;
+}
+
+.box1{
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 20px;
+    text-align: center;
+    float: left;
+}
+
+.box2{
+    display: inline-block;
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.content1{
+    width: 250px;
+    height: 330px;
+    border-radius: 10px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 12px;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    margin-left: 120px;
+}
+
+.content2{
+    display: inline-block;
+    width: 250px;
+    height: 330px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    font-size: 12px;
+    float: left;
+    margin-right: 10px;
+}
+
+.content3{
+    width: 250px;
+    height: 330px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    font-size: 12px;
+    float: left;
+}
+
+.box3{
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    background-color: #FFA07A;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#container {
+    width: 800px;
+    height: 350px;
+    overflow: hidden;
+    margin:auto;
+}
+
+#photo {
+    width: 2400px;
+    animation: switch 4s ease-out infinite;
+}
+
+#photo > img {
+    float: left;
+    width: 800px;
+    height: 350px;
+}
+
+@keyframes switch {
+    0%, 25% {
+        margin-left: 0;
+    }
+    35%, 60% {
+        margin-left: -800px;
+    }
+    70%, 100% {
+        margin-left: -1600px;
+    }
+}
+
+table {
+    margin: auto;
+    border:           thin solid black;
+    caption-side:     bottom;
+    border-collapse:  collapse;
+    padding-top: 20px;
+}
+
+table table th {
+    background-color: white;
+}
+
+td, th {
+    border:           thin dotted gray;
+    padding:          5px;
+}
+
+th {
+    background-color: #cc6600;
+}
+
+
+.cellcolor {
+    background-color: #fcba7a;
+}
+
+
+
+caption {
+    font-style:       italic;
+    padding-top:      8px;
+}
+
+.center {
+    text-align:       center;
+}
+
+.right {
+    text-align:       right;
+}
+
+
