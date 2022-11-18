@@ -2,70 +2,205 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>个人网页设计</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Title</title>
 </head>
 <body>
-<!--页眉-->
-<header id="header">
-<img src="img/富士山.png" style="height: 55px;margin-left: 40px;margin-top: 12px">
-</header>
-<!--导航栏-->
-<div>
-    <nav>
-        <ul>
-            <li class="selected"><a href="index.html">个人主页</a></li>
-            <li><a href="blog.html">个人日志</a></li>
-            <li><a href="invention.html">我的荣誉</a></li>
-            <li><a href="life.html">校园生活</a></li>
-            <li><a href="">我的家乡</a></li>
-        </ul>
-    </nav>
-</div>
-<!--内容-->
-<div class="body">
-    <div class="tablerow">
-        <!--边栏区-->
-        <div class="sider">
-            <div class="hobbytitle"><p style="padding-top: 20px;font-weight: bold;font-size: 16px">我的爱好</p></div>
-            <img src="img/钢琴老师-01.png" style="height: 85px">
-            <p style="color: #FFA07A;font-size: 16px;font-weight: bold">弹钢琴</p>
-            <p style="font-size: 12px">我从三岁的时候开始学习钢琴。学习钢琴的过程虽然非常枯燥，但是它也让我获得了很多快乐。</p>
-            <img src="img/电视机.png" style="height: 85px">
-            <p style="color: #FFA07A;font-size: 16px;font-weight: bold">看电影</p>
-            <p style="font-size: 12px">闲暇的时候喜欢看几部电影，放松一下。我喜欢的电影有很多很多，希望可以和你一起分享！</p>
-            <img src="img/绘画.png" style="height: 85px">
-            <p style="color: #FFA07A;font-size: 16px;font-weight: bold">绘画</p>
-            <p style="font-size: 12px">绘画也是一项我很擅长很喜欢的活动！因为在绘画的时候可以沉浸在自己一个人的世界里，我很喜欢绘画时候的感觉。</p>
-        </div>
-        <!--内容区-->
-        <div class="main">
-            <a href="more.html" style="float: right;margin-top: 15px;margin-right: 25px;font-size: 13px;font-family: 黑体;">了解更多</a>
-            <h2 style="text-align: center;margin-top: 40px;font-size: 20px;color: #FFC0CB;font-family: 黑体;font-weight: bold">终于等到你啦！欢迎来到我的主页！</h2>
-
-            <div>
-                <img src="img/猪.png" style="width: 460px;margin-top: 45px;margin-left: 160px">
-            </div>
-            <div class="text">
-                <p style="color: #FFAEB9;font-size: 16px;">既然来了，就留下来看看再走叭~</p>
-                <div class="line"></div>
-                <p style="font-size: 16px;color: #FFA07A;font-weight: bold">这是一段简单的自我介绍 <img src="img/华夫饼.png" style="height: 22px"></p>
-                <div class="introduce">
-                    <ul>
-                        <li><span class="cd">喜欢各种美食</span>, <span class="artist">探索每个地方的一切好吃的</span></li>
-                        <li><span class="cd">会弹钢琴</span>, <span class="artist">已经考过了钢琴十级啦</span></li>
-                        <li><span class="cd">喜欢绘画</span>, <span class="artist">比较擅长的种类是动画，素描</span></li>
-                        <li><span class="cd">很热心，看到别人有困难会毫不犹豫的帮助</span>, <span class="artist">但是有一点点的慢热</span></li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
+<div style="background-color: #F7F7F7 ">
+  <!--    导航栏-->
+  <div class="head">
+    <img src="../assets/img/logo.png" class="logo">
+    <button class="login">sign in</button>
+    <button class="search"><van-icon name="search" />     search</button>
+  </div>
+  <!--    内容-->
+  <div class="main">
+    <p style="margin: auto;text-align: center;font-size: 36px;padding-top: 20px">How to solve</p>
+    <p style="margin: auto;text-align: center;font-size: 36px;margin-top: 20px">the problem of<span style="color: #99ccff"> difficult promotion</span>  </p>
+    <p style="margin: auto;text-align: center;font-size: 36px;margin-top: 20px">of enterprise employees?</p>
+    <div class="contain">
+      <div class="video1">
+        <video controls width="400" height="300">
+          <source src="../assets/v1.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="text1">
+        <p>Through research and studies, it is found that many companies today
+          have the problem of difficulty in promoting employees, which makes
+          employees very frustrated.
+        </p>
+        <p>
+          In the video on the right we see four
+          employees who are very tired in this predicament. The problem of
+          difficult promotions also leads to a hindrance in
+          the productivity of the company and is a problem that needs to be solved immediately.
+        </p>
+      </div>
     </div>
-</div>
-<!--页脚-->
-<div id="footer" style="text-align: center">
-<p style="color: white;font-size: 14px;font-weight: bold">Web Personal Website Design</p>
+    <div class="contain2">
+      <button class="button1"  style="width: 200px;height: 30px;text-align: center"> Career Personality Test</button>
+      <div style="display: inline-block;position: relative;float: left;margin-left: 30px;font-size: 18px;margin-top: -7px">
+        <p>Have each employee complete a career personality test analysis</p>
+      </div>
+    </div>
+    <div class="contain1">
+      <button class="button2" style="width: 240px;height: 30px;text-align: center;display: inline-block;position: relative;float: right;"> Performance Appraisal System</button>
+      <div style="display: inline-block;position: relative;float: right;margin-left: 30px;font-size: 18px;margin-right: 20px;margin-top: -7px">
+        <p>Have employees conduct milestone reviews and quantify performance scores</p>
+      </div>
+    </div>
+    <a-divider />
+    <div class="contain4">
+      <button class="button1" style="height: 30px"> Company Management Training System</button>
+      <div style="display: inline-block;position: relative;float: left;margin-left: 30px;font-size: 18px;width: 550px;margin-top: -7px;line-height: 24px">
+        <p>Record the training attended by employees and arrange the assessment so that the results are recorded.
+          Provide analysis and summary information for employees who failed to be promoted.</p>
+      </div>
+    </div>
+    <div class="contain3" >
+      <button class="button2"  style="height: 30px"> Digital Talent Screening Mechanism</button>
+      <div style="display: inline-block;position: relative;float: right;margin-left: 30px;font-size: 18px;width: 550px;margin-top: -7px;line-height: 24px;text-align: right;margin-right: 30px">
+        <p>The system combines rigid requirements and soft adaptation requirements to select the
+          person with the highest degree of suitability by analysing the information in each candidate's database.</p>
+      </div>
+    </div>
+    <div class="video2">
+      <video controls width="700" height="300">
+        <source src="../assets/v2.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="last">
+      <p style="font-weight: bold;font-size: 20px"> CALL ON</p>
+      Solve employee promotion problems,
+      improve employee satisfaction and loyalty, and
+      make the company more competitive with increased efficiency.</div>
+  </div>
 </div>
 </body>
 </html>
+<style scoped>
+  .head{
+    width: 100%;
+    height: 60px;
+    background-color: #99ccff;
+    font-size: 14px;
+  }
+  .logo{
+    width: 34px;
+    height: 34px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 20px;
+  }
+  .search{
+    float: right;
+    width: 100px;
+    height: 36px;
+    /*margin-left: 20px;*/
+    border-radius: 10px;
+    margin-top: 10px;
+    /*background-color: white;*/
+  }
+  .login{
+    float: right;
+    width: 100px;
+    height: 36px;
+    margin-right: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .main{
+    width: 100%;
+    background-color: #F7F7F7;
+  }
+  .contain{
+    width: 900px;
+    height: 300px;
+    margin: auto;
+    /*background-color: red;*/
+  }
+  .video1{
+    width: 400px;
+    height: 300px;
+    background-color: grey;
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin-top: 30px;
+  }
+  .text1{
+    width: 430px;
+    /*background-color: green;*/
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin-top: 70px;
+    margin-left: 60px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .button1{
+    display: inline-block;
+    position: relative;
+    float: left;
+    border-radius: 10px;
+    background-color: #9BCD9B;
+  }
+  .button2{
+    display: inline-block;
+    position: relative;
+    float: right;
+    border-radius: 10px;
+    background-color: #9BCD9B;
+  }
+  .contain1{
+    width: 900px;
+    height: 60px;
+    margin: auto;
+    /*background-color: red;*/
+    margin-top: 50px;
+  }
+  .contain2{
+    width: 900px;
+    height: 60px;
+    margin: auto;
+    /*background-color: red;*/
+    margin-top: 80px;
+    font-size: 16px;
+  }
+  .contain3{
+    width: 900px;
+    height: 60px;
+    margin: auto;
+    /*background-color: red;*/
+    margin-top: 100px;
+    font-size: 16px;
+  }
+  .contain4{
+    width: 900px;
+    height: 60px;
+    margin: auto;
+    /*background-color: red;*/
+    margin-top: 60px;
+  }
+  .video2{
+    margin: auto;
+    width: 700px;
+    height: 300px;
+    background-color: grey;
+    margin-top: 80px;
+    margin-bottom: 30px;
+  }
+  .last{
+    width: 880px;
+    height: 120px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin: auto;
+    background-color: #99ccff;
+    font-size: 18px;
+    padding: 1px;
+    padding-left: 16px;
+    margin-bottom: 30px;
+  }
+</style>
